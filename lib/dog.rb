@@ -1,10 +1,12 @@
 # Your code goes here!
 class Dog
 
-
+def name=(dog_name)
+  this_dog = dog_name
+end
 
 def name
-  name = "Fido"
+  this_dog
 end
 
   def bark
